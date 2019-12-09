@@ -1,0 +1,47 @@
+@media only screen and (max-width: 750px) {
+	.menu-btn {
+		display: block;
+	}
+	
+	.menu-block ul {
+		display: none;
+		margin-left: 80px;
+		text-align: center;
+	}
+	
+	.menu-block .container {
+		justify-content: flex-start;
+	}
+	
+	.menu-block ul li {
+		display: block;
+		margin: 15px 0;
+	}
+}
+
+
+@media only screen and (max-width: 550px) {
+	
+	.services-block .flex-item {
+		width: 80%;
+		margin: 30px auto;
+	}
+	
+	.portfolio-block .flex-item {
+		width: 80%;
+		margin: 30px auto;
+	}
+	
+	footer p {
+		width: 100%;
+		text-align: center;
+	}
+	
+	footer ul {
+		width: 100%;
+		margin-left: 0;
+		text-align: center;
+		margin-top: 30px;
+	}
+	
+}
